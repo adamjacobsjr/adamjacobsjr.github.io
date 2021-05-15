@@ -1,2 +1,0 @@
-# ajacobsjr.github.io
-portfolio
