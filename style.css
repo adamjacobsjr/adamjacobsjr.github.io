@@ -9,7 +9,7 @@
 html {
     color: black;
     font: 18px sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -18,11 +18,10 @@ a {
 }
 
 a:hover {
-    color: #1cb821;
+    color: #4357;
 }
-
 .container {
-    background-color: #eee;
+    background-color: rgb(215, 204, 247);
     margin: 2rem auto;
     max-width: 70rem;
     width: 90%;
@@ -30,7 +29,7 @@ a:hover {
 
 .header {
     align-items: center;
-    border-bottom: 2px solid #777;
+    border-bottom: 2px solid rgb(61, 61, 61);
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
@@ -47,10 +46,9 @@ a:hover {
 }
 
 .header__nav_listItem:hover {
-    border-bottom: 3px solid #0cfa14;
+    border-bottom: 3px solid #5f4357;
     transition: .5s;
 }
-
 .profile__section {
     display: flex;
     justify-content: space-between;
@@ -70,6 +68,7 @@ a:hover {
 .profile__section_image {
     height: auto;
     max-width: 100%;
+    border: 1px solid rgb(10, 10, 10);
 }
 
 .profile__section_listItem {
@@ -125,7 +124,7 @@ p {
     width: 30px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 750px) {
 
 .header {
     align-items: center;
@@ -150,10 +149,6 @@ p {
     align-items: center;
     display: flex;
     flex-direction: column;
-}
-
-.footer__copyright {
-    padding-bottom: .5rem;
 }
 
 }
