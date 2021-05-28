@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: black;
+    font: 18px sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1cb821;
+}
+
+.container {
+    background-color: #eee;
+    margin: 2rem auto;
+    max-width: 70rem;
+    width: 90%;
+}
+
+.header {
+    align-items: center;
+    border-bottom: 2px solid #777;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.header__nav_list {
+    display: flex;
+}
+
+.header__nav_listItem {
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.header__nav_listItem:hover {
+    border-bottom: 3px solid #0cfa14;
+    transition: .5s;
+}
+
+.profile__section {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.profile__section_info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.profile__section_heading {
+    margin-bottom: .5rem;
+}
+
+.profile__section_image {
+    height: auto;
+    max-width: 100%;
+}
+
+.profile__section_listItem {
+    list-style-type: none;
+    font-size: 16px;
+    padding: .1rem;
+}
+
+p {
+    font-size: 16px;
+    padding-bottom: .5rem;
+}
+
+.projects__title {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.projects__section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projects__column {
+    margin: 1rem;
+}
+
+.projects__column_title {
+    padding-bottom: .5rem;
+    text-align: center;
+}
+
+.projects__column_image {
+    height: auto;
+    max-width: 100%;
+}
+
+.footer {
+    align-items: center;
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+    padding-bottom: .5rem;
+}
+
+.footer__social_linkedin {
+    height: auto;
+    width: 30px;
+}
+
+.footer__social_github {
+    height: auto;
+    width: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.profile__section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__copyright {
+    padding-bottom: .5rem;
+}
+
+}
