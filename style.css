@@ -29,7 +29,7 @@ a:hover {
 
 .header {
     align-items: center;
-    border-bottom: 2px solid rgb(61, 61, 61);
+    border-bottom: 2px solid rgb(255,255,255);
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
